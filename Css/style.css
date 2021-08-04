@@ -1,0 +1,1017 @@
+*{
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1280px) {
+    #menu{
+        width: 100%;
+        background-color: transparent;
+        padding: 15px;
+        position: fixed;
+        float: left;
+        z-index: 3;
+        transition: 0.5s;
+    }
+    
+    #menu li{
+        display: inline;
+        padding: 8px;
+    }
+    
+    #menu a{
+        padding: 5px;
+        font-size: 23px;
+        color: #fff;
+    }
+    
+    #menu a:hover{
+        transition: 0.5s;
+        border-bottom: 2px solid #fff ;
+    }
+    
+    .header{
+        width: 100%;
+        height: 725px;
+        background-color: #ffba08;
+    }
+    
+    .header img{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 41.5%;
+        margin-top: 5%;
+    }
+    
+    .header ul{
+        text-align: center;
+    }
+    
+    .header li{
+        display: inline;
+        font-size: 25px;
+    }
+    
+    .header .name-shape{
+        color: #283d3b;
+        font-family: 'Poppins', sans-serif !important;
+        cursor: default;
+    }
+    
+    .header h2{
+        color: #fff;
+        text-align: center;
+        margin-left: 50px;
+        font-size: 40px;
+        padding: 15px;
+        cursor: default;
+        font-family: 'Encode Sans SC', sans-serif !important;
+    }
+    
+    .header h2 :not(span){
+        text-decoration: underline;
+    }
+    
+    .header li a{
+        color:#283d3b;
+        padding: 5px;
+    }
+    
+    .header li a:hover{
+        transition: 0.5s;
+        color: #fff;
+    }
+    
+    .content .text-underline{
+        color: #fff;
+    }
+    
+    .content{
+        width: 100%;
+        height: 725px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-size: 1519px;
+        color: #fff;
+    }
+    
+    .content h2 {
+        text-align: center;
+        font-size: 50px;
+        padding: 60px;
+    }
+    
+    .content .icerik{
+        width: 15%;
+        display: inline-block;
+        border: 1px solid #fff;
+        text-align: center;
+        padding: 15px;
+        overflow: auto;
+        margin-left: 90px;
+        margin-top: 12px;
+    }
+    
+    .text-hover .text{
+        visibility: hidden;
+        width: 15%;
+        height: 242px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 23px;
+        margin-top: -215px;
+        position: absolute;
+        opacity: 0;
+    }
+    
+    .icerik:hover .text{
+        transition: 0.8s;
+        opacity:1;
+        filter: blur(4x);
+        visibility: visible;
+    }
+    
+    .icerik:hover{
+        transition: 0.8s;
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+    
+    .icerik:hover img{
+        visibility: hidden;
+    }
+    
+    .icerik:hover h4{
+        visibility: hidden;
+    }
+    
+    .Hakkimda{
+        width: 100%;
+        height: 725px;
+        background-color: #fff;
+    }
+    
+    .Hakkimda h2{
+        text-align: center;
+        font-size: 50px;
+        padding: 60px;
+    }
+    
+    .Hakkimda .about{
+        width: 80%;
+        height: 245px;
+        margin-left: 10%;
+    }
+    
+    .Hakkimda .about p {
+        font-size: 23px;
+        line-height: 36px;
+        border-top: 1px solid rgb(27,67,50,0.3);
+        border-bottom: 1px solid rgb(27,67,50,0.3);
+        padding: 38px;
+        text-indent: 15px;
+    }
+    
+    .iletisim{
+        margin-top: auto !important;
+        width: 100%;
+        height: 740px;
+        background-color: #ffba08;
+        z-index: 2;
+    }
+    
+    .iletisim .contact{
+        width: 70%;
+        height: 600px;
+        background-color: #fff;
+        float: left;
+        margin-left: 15%;
+        margin-top: 4.5%;
+        border: 5px solid #fff !important;
+        border-radius: 5px;
+    }
+    
+    .contact .col:first-child{
+        line-height: 38px;
+        padding: 0 8px;
+    }
+    
+    .contact .col{
+        width: 49%;
+        float: left;
+        margin: auto;
+        padding: 0;
+        margin-top: 1%;  
+    }
+    
+    .col ul li{
+        font-size: 15px;
+        padding: 5px 0px;
+    }
+    
+    .contact .stick{
+        width: 1px;
+        height: 300px;
+        background-color: rgb(255,186,8,0.4);
+        float: left;
+        margin-top: 6%;
+    }
+    
+    .contact h2{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .col input[type="radio"]{
+        width: 30px;
+    }
+    
+    .col input[type="text"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .col input[type="email"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .send{
+        border: 1px solid #ffba08;
+        text-align: center;
+        width: 15%;
+        padding: 8px;
+        color:#000;
+        float: right;
+        margin-right: 23%;
+        border-radius: 3px;
+    }
+    
+    .send:hover{
+        transition: 0.3s;
+        background-color: #ffba08;
+        color: #fff;
+   
+     }   
+}
+
+
+@media only screen and (min-width:768px) and ( max-width:1280px) {
+   
+    #menu{
+        width: 100%;
+        background-color: transparent;
+        padding: 15px;
+        position: fixed;
+        float: left;
+        z-index: 3;
+        transition: 0.5s;
+    }   
+    
+    
+    #menu li{
+        display: inline;
+        padding: 8px;
+    }
+    
+    #menu a{
+        padding: 5px;
+        font-size: 23px;
+        color: #fff;
+    }
+    
+    #menu a:hover{
+        transition: 0.5s;
+        border-bottom: 2px solid #fff ;
+    }
+    
+    .header{
+        width: 100%;
+        height: 725px;
+        background-color: #ffba08;
+    }
+    
+    .header img{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 37%;
+        margin-top: 5%;
+    }
+    
+    .header ul{
+        text-align: center;
+    }
+    
+    .header li{
+        display: inline;
+        font-size: 25px;
+    }
+    
+    .header .name-shape{
+        color: #283d3b;
+        font-family: 'Poppins', sans-serif !important;
+        cursor: default;
+    }
+    
+    .header h2{
+        color: #fff;
+        text-align: center;
+        margin-left: 50px;
+        font-size: 40px;
+        padding: 15px;
+        cursor: default;
+        font-family: 'Encode Sans SC', sans-serif !important;
+    }
+    
+    .header h2 :not(span){
+        text-decoration: underline;
+    }
+    
+    .header li a{
+        color:#283d3b;
+        padding: 5px;
+    }
+    
+    .header li a:hover{
+        transition: 0.5s;
+        color: #fff;
+    }
+    
+    .content .text-underline{
+        color: #fff;
+    }
+    
+    .content{
+        width: 100%;
+        height: 725px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-size: 1519px;
+        color: #fff;
+    }
+    
+    .content h2 {
+        text-align: center;
+        font-size: 50px;
+        padding: 60px;
+    }
+    
+    .content .icerik{
+        width: auto;
+        display: inline-block;
+        border: 1px solid #fff;
+        text-align: center;
+        padding: 10px;
+        overflow: auto;
+        margin-left: 90px;
+        margin-top: 12px;
+    }
+    
+    .text-hover .text{
+        visibility: hidden;
+        width: 15%;
+        height: 242px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 23px;
+        margin-top: -215px;
+        position: absolute;
+        opacity: 0;
+    }
+    
+    .icerik:hover .text{
+        transition: 0.8s;
+        opacity:1;
+        filter: blur(4x);
+        visibility: visible;
+    }
+    
+    .icerik:hover{
+        transition: 0.8s;
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+    
+    .icerik:hover img{
+        visibility: hidden;
+    }
+    
+    .icerik:hover h4{
+        visibility: hidden;
+    }
+    
+    .Hakkimda{
+        width: 100%;
+        min-height: 725px;
+        background-color: #fff;
+    }
+    
+    .Hakkimda h2{
+        text-align: center;
+        font-size: 40px;
+        padding: 60px;
+    }
+    
+    .Hakkimda .about{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .Hakkimda .about p {
+        font-size: 23px;
+        line-height: 33px;
+        border-top: 1px solid rgb(27,67,50,0.3);
+        border-bottom: 1px solid rgb(27,67,50,0.3);
+        padding:10px 38px;
+        text-indent: 15px;
+    }
+    
+    .iletisim{
+        margin-top: auto !important;
+        width: 100%;
+        min-height: 900px;
+        background-color: #ffba08;
+        z-index: 2;
+    }
+    
+    .iletisim .contact{
+        width: 70%;
+        min-height: 730px;
+        background-color: #fff;
+        float: left;
+        margin-left: 15%;
+        margin-top: 4.5%;
+        border: 5px solid #fff !important;
+        border-radius: 5px;
+    }
+
+    .contact .col{
+        width: 49%;
+        padding: 15px 0;
+        margin: auto;
+        margin-top: 1%;  
+    }
+    
+    .col ul li{
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+    
+    .contact .stick{
+        display: none;
+    }
+    
+    .contact h2{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .col input[type="radio"]{
+        width: 30px;
+    }
+    
+    .col input[type="text"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .col input[type="email"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .send{
+        border: 1px solid #ffba08;
+        text-align: center;
+        width: 17%;
+        padding: 8px;
+        color:#000;
+        float: right;
+        margin-right: 33%;
+        border-radius: 3px;
+    }
+    
+    .send:hover{
+        transition: 0.3s;
+        background-color: #ffba08;
+        color: #fff;
+   
+     }    
+}
+
+@media only screen and (min-width:480px) and ( max-width:768px) {
+
+    #menu{
+        width: 100%;
+        background-color: transparent;
+        padding: 15px;
+        position: fixed;
+        float: left;
+        z-index: 3;
+        transition: 0.5s;
+    }   
+    
+    
+    #menu li{
+        display: inline;
+        padding: 8px;
+    }
+    
+    #menu a{
+        padding: 5px;
+        font-size: 23px;
+        color: #fff;
+    }
+    
+    #menu a:hover{
+        transition: 0.5s;
+        border-bottom: 2px solid #fff ;
+    }
+    
+    .header{
+        width: 100%;
+        height: 725px;
+        background-color: #ffba08;
+    }
+    
+    .header img{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 33%;
+        margin-top: 12%;
+    }
+    
+    .header ul{
+        text-align: center;
+    }
+    
+    .header li{
+        display: inline;
+        font-size: 25px;
+    }
+    
+    .header .name-shape{
+        color: #283d3b;
+        font-family: 'Poppins', sans-serif !important;
+        cursor: default;
+    }
+    
+    .header h2{
+        color: #fff;
+        text-align: center;
+        margin-left: 50px;
+        font-size: 40px;
+        padding: 15px;
+        cursor: default;
+        font-family: 'Encode Sans SC', sans-serif !important;
+    }
+    
+    .header h2 :not(span){
+        text-decoration: underline;
+    }
+    
+    .header li a{
+        color:#283d3b;
+        padding: 5px;
+    }
+    
+    .header li a:hover{
+        transition: 0.5s;
+        color: #fff;
+    }
+    
+    .content .text-underline{
+        color: #fff;
+    }
+    
+    .content{
+        width: 100%;
+        height: 725px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-size: 1519px;
+        color: #fff;
+    }
+    
+    .content h2 {
+        text-align: center;
+        font-size: 50px;
+        padding: 60px;
+    }
+    
+    .content .icerik{
+        width: auto;
+        display: inline-block;
+        border: 1px solid #fff;
+        text-align: center;
+        padding: 10px;
+        overflow: auto;
+        margin-left: 90px;
+        margin-top: 12px;
+    }
+    
+    .text-hover .text{
+        visibility: hidden;
+        width: 27%;
+        height: 242px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 23px;
+        margin-top: -200px;
+        position: absolute;
+        opacity: 0;
+    }
+    
+    .icerik:hover .text{
+        transition: 0.8s;
+        opacity:1;
+        visibility: visible;
+    }
+    
+    .icerik:hover{
+        transition: 0.8s;
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+    
+    .icerik:hover img{
+        visibility: hidden;
+    }
+    
+    .icerik:hover h4{
+        visibility: hidden;
+    }
+    
+    .Hakkimda{
+        width: 100%;
+        min-height: 800px;
+        background-color: #fff;
+    }
+    
+    .Hakkimda h2{
+        text-align: center;
+        font-size: 40px;
+        padding:55px 60px;
+    }
+    
+    .Hakkimda .about{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .Hakkimda .about p {
+        font-size: 20px;
+        line-height: 33px;
+        border-top: 1px solid rgb(27,67,50,0.3);
+        border-bottom: 1px solid rgb(27,67,50,0.3);
+        text-indent: 15px;
+    }
+    
+    .iletisim{
+        margin-top: auto !important;
+        width: 100%;
+        min-height: 900px;
+        background-color: #ffba08;
+        z-index: 2;
+    }
+    
+    .iletisim .contact{
+        width: 70%;
+        min-height: 730px;
+        background-color: #fff;
+        float: left;
+        margin-left: 15%;
+        margin-top: 4.5%;
+        border: 5px solid #fff !important;
+        border-radius: 5px;
+    }
+
+    .contact .col{
+        width: 56%;
+        padding: 15px 0;
+        margin-top: 1%;  
+    }
+    
+    .col ul li{
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+    
+    .contact .stick{
+        display: none;
+    }
+    
+    .contact h2{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .col input[type="radio"]{
+        width: 30px;
+    }
+    
+    .col input[type="text"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .col input[type="email"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .send{
+        border: 1px solid #ffba08;
+        text-align: center;
+        width: 22%;
+        padding: 8px;
+        color:#000;
+        float: right;
+        margin-right: 0%;
+        border-radius: 3px;
+    }
+    
+    .send:hover{
+        transition: 0.3s;
+        background-color: #ffba08;
+        color: #fff;
+   
+     }    
+    
+
+}
+
+@media only screen and (max-width:480px) {
+    #menu{
+        width: 100%;
+        background-color: transparent;
+        padding: 15px;
+        position: fixed;
+        float: left;
+        z-index: 3;
+        transition: 0.5s;
+    }   
+    
+    
+    #menu li{
+        display: inline;
+        padding: 8px;
+    }
+    
+    #menu a{
+        padding: 5px;
+        font-size: 23px;
+        color: #fff;
+    }
+    
+    #menu a:hover{
+        transition: 0.5s;
+        border-bottom: 2px solid #fff ;
+    }
+    
+    .header{
+        width: 100%;
+        height: 725px;
+        background-color: #ffba08;
+    }
+    
+    .header img{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 33%;
+        margin-top: 12%;
+    }
+    
+    .header ul{
+        text-align: center;
+    }
+    
+    .header li{
+        display: inline;
+        font-size: 25px;
+    }
+    
+    .header .name-shape{
+        color: #283d3b;
+        font-family: 'Poppins', sans-serif !important;
+        cursor: default;
+    }
+    
+    .header h2{
+        color: #fff;
+        text-align: center;
+        margin-left: 50px;
+        font-size: 40px;
+        padding: 15px;
+        cursor: default;
+        font-family: 'Encode Sans SC', sans-serif !important;
+    }
+    
+    .header h2 :not(span){
+        text-decoration: underline;
+    }
+    
+    .header li a{
+        color:#283d3b;
+        padding: 5px;
+    }
+    
+    .header li a:hover{
+        transition: 0.5s;
+        color: #fff;
+    }
+    
+    .content .text-underline{
+        color: #fff;
+    }
+    
+    .content{
+        width: 100%;
+        height: 725px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-size: 1519px;
+        color: #fff;
+    }
+    
+    .content h2 {
+        text-align: center;
+        font-size: 50px;
+        padding: 60px;
+    }
+    
+    .content .icerik{
+        width: auto;
+        display: inline-block;
+        border: 1px solid #fff;
+        text-align: center;
+        padding: 10px;
+        overflow: auto;
+        margin-left: 90px;
+        margin-top: 12px;
+    }
+    
+    .text-hover .text{
+        visibility: hidden;
+        width: 27%;
+        height: 242px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 23px;
+        margin-top: -200px;
+        position: absolute;
+        opacity: 0;
+    }
+    
+    .icerik:hover .text{
+        transition: 0.8s;
+        opacity:1;
+        visibility: visible;
+    }
+    
+    .icerik:hover{
+        transition: 0.8s;
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+    
+    .icerik:hover img{
+        visibility: hidden;
+    }
+    
+    .icerik:hover h4{
+        visibility: hidden;
+    }
+    
+    .Hakkimda{
+        width: 100%;
+        min-height: 800px;
+        background-color: #fff;
+    }
+    
+    .Hakkimda h2{
+        text-align: center;
+        font-size: 40px;
+        padding:55px 60px;
+    }
+    
+    .Hakkimda .about{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .Hakkimda .about p {
+        font-size: 20px;
+        line-height: 33px;
+        border-top: 1px solid rgb(27,67,50,0.3);
+        border-bottom: 1px solid rgb(27,67,50,0.3);
+        text-indent: 15px;
+    }
+    
+    .iletisim{
+        margin-top: auto !important;
+        width: 100%;
+        min-height: 900px;
+        background-color: #ffba08;
+        z-index: 2;
+    }
+    
+    .iletisim .contact{
+        width: 70%;
+        min-height: 730px;
+        background-color: #fff;
+        float: left;
+        margin-left: 15%;
+        margin-top: 4.5%;
+        border: 5px solid #fff !important;
+        border-radius: 5px;
+    }
+
+    .contact .col{
+        width: 56%;
+        padding: 15px 0;
+        margin-top: 1%;  
+    }
+    
+    .col ul li{
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+    
+    .contact .stick{
+        display: none;
+    }
+    
+    .contact h2{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .col input[type="radio"]{
+        width: 30px;
+    }
+    
+    .col input[type="text"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .col input[type="email"]{
+        width: 75%;
+        height: 20px;
+        font-size: 21px;
+        padding: 5px;
+    }
+    
+    .send{
+        border: 1px solid #ffba08;
+        text-align: center;
+        width: 22%;
+        padding: 8px;
+        color:#000;
+        float: right;
+        margin-right: 0%;
+        border-radius: 3px;
+    }
+    
+    .send:hover{
+        transition: 0.3s;
+        background-color: #ffba08;
+        color: #fff;
+   
+     }    
+}
