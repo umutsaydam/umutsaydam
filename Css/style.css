@@ -775,7 +775,7 @@ a{
     #menu{
         width: 100%;
         background-color: transparent;
-        padding: 15px;
+        padding: 0;
         position: fixed;
         float: left;
         z-index: 3;
@@ -789,8 +789,8 @@ a{
     }
     
     #menu a{
-        padding: 5px;
-        font-size: 23px;
+        padding: 8px 0;
+        font-size: 21px;
         color: #fff;
     }
     
@@ -809,7 +809,7 @@ a{
         width: 300px;
         height: 300px;
         border-radius: 150px;
-        margin-left: 33%;
+        margin-left: 23%;
         margin-top: 12%;
     }
     
@@ -832,7 +832,7 @@ a{
         color: #fff;
         text-align: center;
         margin-left: 50px;
-        font-size: 40px;
+        font-size: 65px;
         padding: 15px;
         cursor: default;
         font-family: 'Encode Sans SC', sans-serif !important;
@@ -879,8 +879,8 @@ a{
         text-align: center;
         padding: 10px;
         overflow: auto;
-        margin-left: 90px;
-        margin-top: 12px;
+        margin-left: 10px;
+        margin-top: -15px;
     }
     
     .text-hover .text{
@@ -922,7 +922,7 @@ a{
     
     .Hakkimda h2{
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         padding:55px 60px;
     }
     
@@ -933,7 +933,7 @@ a{
     
     .Hakkimda .about p {
         font-size: 20px;
-        line-height: 33px;
+        line-height: 27px;
         border-top: 1px solid rgb(27,67,50,0.3);
         border-bottom: 1px solid rgb(27,67,50,0.3);
         text-indent: 15px;
@@ -948,7 +948,7 @@ a{
     }
     
     .iletisim .contact{
-        width: 70%;
+        width: 100%;
         min-height: 730px;
         background-color: #fff;
         float: left;
@@ -965,7 +965,7 @@ a{
     }
     
     .col ul li{
-        font-size: 16px;
+        font-size: 15px;
         padding: 5px 0px;
     }
     
@@ -975,7 +975,7 @@ a{
     
     .contact h2{
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         padding: 10px;
     }
     
