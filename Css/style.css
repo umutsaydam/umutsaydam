@@ -789,7 +789,8 @@ a{
     }
     
     #menu a{
-        padding: 8px 0;
+        padding: 8px 3px;
+        float:left;
         font-size: 21px;
         color: #fff;
     }
@@ -806,15 +807,15 @@ a{
     }
     
     .header img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         border-radius: 150px;
-        margin-left: 23%;
+        margin-left: 25%;
         margin-top: 12%;
     }
     
     .header ul{
-        text-align: center;
+        margin-left:27%;
     }
     
     .header li{
@@ -831,8 +832,8 @@ a{
     .header h2{
         color: #fff;
         text-align: center;
-        margin-left: 50px;
-        font-size: 65px;
+        margin-left: 0px;
+        font-size: 32px;
         padding: 15px;
         cursor: default;
         font-family: 'Encode Sans SC', sans-serif !important;
@@ -868,8 +869,8 @@ a{
     
     .content h2 {
         text-align: center;
-        font-size: 50px;
-        padding: 60px;
+        font-size: 35px;
+        padding: 38px;
     }
     
     .content .icerik{
@@ -877,7 +878,7 @@ a{
         display: inline-block;
         border: 1px solid #fff;
         text-align: center;
-        padding: 10px;
+        padding: 5px;
         overflow: auto;
         margin-left: 10px;
         margin-top: -15px;
@@ -1004,7 +1005,7 @@ a{
         padding: 8px;
         color:#000;
         float: right;
-        margin-right: 0%;
+        margin-right: -7%;
         border-radius: 3px;
     }
     
