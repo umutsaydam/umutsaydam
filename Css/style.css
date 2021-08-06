@@ -775,13 +775,16 @@ a{
     #menu{
         width: 100%;
         background-color: transparent;
-        padding: 0;
+        padding: 6px;
         position: fixed;
         float: left;
         z-index: 3;
         transition: 0.5s;
     }   
     
+    #menu ul{
+        margin-left:-40px;
+    }
     
     #menu li{
         display: inline;
@@ -789,15 +792,14 @@ a{
     }
     
     #menu a{
-        padding: 9px 3px;
-        float:left;
-        font-size: 21px;
+        padding: 9px 0px;
+        font-size: 15px;
         color: #fff;
     }
     
     #menu a:hover{
         transition: 0.5s;
-        border-bottom: 2px solid #fff ;
+        border-bottom: 1px solid #fff ;
     }
     
     .header{
@@ -869,7 +871,7 @@ a{
     
     .content h2 {
         text-align: center;
-        font-size: 35px;
+        font-size: 29px;
         padding: 38px;
     }
     
@@ -882,21 +884,21 @@ a{
         overflow: auto;
         float:left;
         margin-left: 5px;
-        margin-top: -15px;
+        margin-top: 2px;
     }
     
     .content .icerik img{
-        height:176px;
+        height:150px;
     }
     
     .text-hover .text{
         visibility: hidden;
-        width: 27%;
+        width: 40%;
         height: 242px;
         border-radius: 3px;
         text-align: center;
-        font-size: 23px;
-        margin-top: -200px;
+        font-size: 18px;
+        margin-top: -150px;
         position: absolute;
         opacity: 0;
     }
