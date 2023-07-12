@@ -29,7 +29,7 @@
 
 ###
 
-<p align="left">I am from Turkiye<br><br>- 🔭 I'm a computer engineering student<br>- 📚 I'm currently learning Kotlin<br>- ⚡ In my free time I like solving algorithm, reading science-fiction books and coding</p>
+<p align="left">- 🧐 A curious developer<br>- 📚 I'm currently learning Kotlin to develop android apps<br>- 📰 Content creator on <a href="https://www.instagram.com/codewithumut/" target="_blank">Instagram</a></p>
 
 ###
 
